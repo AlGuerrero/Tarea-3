@@ -20,8 +20,9 @@ public void setReal(double real) {
 this.real = real;
 }																							
 
-public double getImg() {																					return img;
-}																								public void setImg(double img) {
+public double getImg() {
+return img;
+}																				public void setImg(double img) {
 this.img = img;}
 public void sum(Complex a, Complex b){
 this.real = a.getReal() + b.getReal();
